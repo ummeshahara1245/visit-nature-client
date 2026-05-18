@@ -1,0 +1,57 @@
+.sidebar-container {
+    border-right: 1px solid #edf2f7;
+    width: 100%;
+}
+
+.sidebar-link {
+    text-decoration: none;
+    color: #4a5568 !important;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.sidebar-link i {
+    width: 20px;
+    font-size: 1.1rem;
+}
+
+/* হোভার করলে কেমন দেখাবে */
+.sidebar-link:hover {
+    background-color: #f0fff4;
+    color: #198754 !important;
+    padding-left: 25px;
+}
+
+/* যে মেনুতে ইউজার বর্তমানে আছেন (Active) */
+.active-sidebar-link {
+    background-color: #198754 !important;
+    color: white !important;
+    box-shadow: 0 4px 12px rgba(25, 135, 84, 0.2);
+}
+
+/* লগআউট বাটন স্টাইল */
+.logout-btn {
+    background: transparent;
+    color: #e53e3e;
+    border: 2px solid #fed7d7;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.logout-btn:hover {
+    background-color: #fff5f5;
+    border-color: #fc8181;
+    transform: translateY(-2px);
+}
+
+/* ব্র্যান্ড সেকশন হোভার */
+.sidebar-brand:hover span {
+    color: #198754 !important;
+}

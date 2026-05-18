@@ -1,0 +1,28 @@
+.blog-card {
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px !important;
+}
+
+.blog-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.blog-img {
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.blog-card:hover .blog-img {
+    transform: scale(1.1);
+}
+
+.hover-filled:hover {
+    background-color: #198754;
+    color: white !important;
+}
+
+.tracking-wider {
+    letter-spacing: 2px;
+}

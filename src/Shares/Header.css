@@ -1,0 +1,56 @@
+/* নেভিগেশন আইটেম স্টাইল */
+.nav-item-custom {
+    color: #444 !important;
+    font-weight: 500;
+    margin: 0 10px;
+    padding: 8px 15px !important;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.nav-item-custom:hover,
+.active {
+    background-color: #f0fff4;
+    color: #198754 !important;
+}
+
+/* ইউজার প্রোফাইল ইমেজ */
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #198754;
+    transition: transform 0.3s ease;
+}
+
+.user-avatar:hover {
+    transform: scale(1.1);
+}
+
+/* লগইন বাটন */
+.login-btn {
+    background-color: #198754;
+    color: white !important;
+    text-decoration: none;
+    padding: 8px 25px;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #146c43;
+    box-shadow: 0 4px 12px rgba(25, 135, 84, 0.2);
+}
+
+/* মোবাইল ভিউর জন্য অ্যাডজাস্টমেন্ট */
+@media (max-width: 991px) {
+    .auth-section {
+        margin-top: 15px;
+        border-top: 1px solid #eee;
+        padding-top: 15px;
+        width: 100%;
+        justify-content: center;
+    }
+}

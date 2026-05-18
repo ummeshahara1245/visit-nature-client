@@ -1,0 +1,121 @@
+.footer-section {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 60px 0 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-logo span {
+    color: #198754;
+    /* Nature Green Color */
+}
+
+/* লিঙ্ক স্টাইল */
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #bbb;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #198754;
+}
+
+.footer-company-name {
+    color: #666;
+    font-size: 13px;
+}
+
+/* কন্টাক্ট সেকশন */
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-item i {
+    background-color: #333;
+    color: #ffffff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.contact-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.contact-item p span {
+    display: block;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* রাইট সেকশন */
+.footer-company-about {
+    font-size: 14px;
+    color: #92999f;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* সোশ্যাল আইকন */
+.footer-icons a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.footer-icons a:hover {
+    background-color: #198754;
+    transform: translateY(-5px);
+}
+
+/* মোবাইল ভিউর জন্য রেসপনসিভ */
+@media (max-width: 991px) {
+    .footer-content {
+        text-align: center;
+    }
+
+    .contact-item {
+        justify-content: center;
+    }
+}
