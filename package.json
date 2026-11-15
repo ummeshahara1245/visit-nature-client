@@ -1,11 +1,10 @@
-
 {
   "name": "assignment-11-client-site",
   "version": "0.1.0",
   "private": true,
   "homepage": ".",
   "engines": {
-    "node": "20.x"
+    "node": "26.x"
   },
   "dependencies": {
     "@craco/craco": "^6.4.0",
