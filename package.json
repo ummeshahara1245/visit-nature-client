@@ -1,3 +1,6 @@
+"engines": {
+  "node": "20.x"
+}
 {
   "name": "assignment-11-client-site",
   "version": "0.1.0",
